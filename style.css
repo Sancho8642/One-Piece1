@@ -1,0 +1,46 @@
+body { 
+    background-color: rgb(89, 200, 228); 
+ }
+
+h1 {
+    color: rgba(36, 12, 255, 0.87);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+li {
+  font-size: 15px;  
+}
+ 
+.text-1 {
+    color: rgb(255, 10, 10);
+}
+.text-2 {
+    color: rgb(30, 253, 0);
+}
+.text-3 {
+    color: brown;
+}
+
+.photo-1 {
+    width: 800px;
+    height: 500px;
+    margin-left: 500px;
+}
+
+
+h1 + p::first-letter {
+    color: rgb(238, 255, 0);
+    width: 22px;
+    font-size: 40px;
+  }
+
+  a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 22px;
+}
